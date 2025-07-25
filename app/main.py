@@ -18,4 +18,3 @@ def create_person_list(people: list) -> list:
             persons.husband = Person.people[person["husband"]]
 
     return [Person.people[person["name"]] for person in people]
-
